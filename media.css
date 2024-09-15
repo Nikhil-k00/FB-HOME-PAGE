@@ -1,0 +1,36 @@
+/* phone align */
+
+@media(max-width:767px){
+    .left .logo{
+       
+        top: 12%;
+        left:20%;
+    }
+    .right .login
+    {
+      top: 12%;
+    }
+    h2{
+      display: none;
+    }
+    .right .login{
+        left: 19px;
+        box-shadow: none;
+    }
+    .right{
+        width: 100vh;
+        height: 50vh;
+    }
+    .left{
+        
+        width: 100vh;
+        height: 50vh;
+    }
+    .main-bar{
+        width: 100vh;
+        height: 100vh;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+     }
+
+}

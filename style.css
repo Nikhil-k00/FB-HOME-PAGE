@@ -1,0 +1,130 @@
+/* reset */
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border-color: #0866ff;
+}
+a{
+    text-decoration: none;
+}
+/* end */
+
+.main-bar
+{
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+
+
+
+/* left side  */
+
+.logo img{
+    width: 300px;
+   display: block;
+   margin-left: -14px;
+}
+h2{
+    margin-left: 15px;
+   font-size: 28px;
+
+   max-width: 500px;
+  
+   font-weight: normal;
+   line-height: 32px;
+  
+}
+.left{
+    height: 100vh;
+    width: 52%;
+    background-color:   whitesmoke;
+    position: relative;
+    flex-basis: 52%;
+}
+.left .logo{
+    position: absolute;
+    top: 205px;
+    left: 255px;
+   bottom: 737px;
+    max-width: 619px;
+    transform: translateY(-50%);
+   
+}
+
+/* end */
+
+
+/* right side */
+.right{
+    height: 100vh;
+    width: 50%;
+    float: right;
+    flex-basis: 50%;
+    background-color:whitesmoke;
+    position: relative;
+}
+.right .login{
+    position: absolute;
+    top: 42%;
+    display: flex;
+    flex-direction: column;
+
+    left: 90px;
+    width: 400px;
+    
+    border-radius:14px ;
+    box-shadow: 5px 5px 10px #55555557;
+    height: 368px;
+    transform: translateY(-50%);
+    background-color: white;
+}
+input{
+    
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 364px;
+    border: 1px solid #dddfe2;
+    margin: 8px 15px;
+}
+.login button{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 48px;
+  
+    width: 364px;
+    color: #ffff;
+}
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.login .button2{
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+  
+    margin: 0 25%;
+  
+    width: 192px;
+    color: #ffff;
+}
+.login a{
+    padding: 0px 16px;
+    margin: 5px 0 0;
+}
+.login p{
+    padding-left: 112px;
+    padding-top: 14px;
+}
